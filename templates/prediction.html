@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Japanese text prediction</title>
+</head>
+<form action = "{{ url_for('predict')}}", method="POST">
+  <label for="comment">Write Comment:</label><br>
+  <input type="text" id="comment" name="comment" ><br>
+    <input type="submit" name="predict" value="Predict!" align ="center" style=" position:center; margin:4px;">
+<!--    <a href = "{{ url_for('predict')}}">-->
+<!--        <input type="button" name="predict" value="Predict!" align ="center" style=" position:center; margin:4px;">-->
+<!--    </a>-->
+</form>
+<body>
+
+</body>
+</html>
